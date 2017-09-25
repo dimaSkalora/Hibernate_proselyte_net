@@ -64,7 +64,6 @@ public class DeveloperRunner {
         Transaction transaction = null;
 
         transaction = session.beginTransaction();
-
         Collection<Developer> developers = new ArrayList<Developer>();//session.createQuery("FROM Developer").list();
         for (Developer developer : developers) {
             System.out.println(developer);
