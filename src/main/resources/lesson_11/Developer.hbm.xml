@@ -5,7 +5,7 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="lesson_09.Developer" table="HIBERNATE_DEVELOPERS">
+    <class name="lesson_11.Developer" table="HIBERNATE_DEVELOPERS">
         <meta attribute="class-description">
             This class contains developer details.
         </meta>
@@ -16,6 +16,7 @@
         <property name="lastName" column="LAST_NAME" type="string"/>
         <property name="specialty" column="SPECIALTY" type="string"/>
         <property name="experience" column="EXPERIENCE" type="int"/>
+        <property name="salary" column="SALARY" type="int"/>
     </class>
 
 </hibernate-mapping>
